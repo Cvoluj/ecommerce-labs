@@ -53,8 +53,8 @@ Stop or pause database (I did it via `docker pause postgres`) and repeat the req
 
 ## Graceful Shutdown
 
-find process id and kill it:
+find process id and kill it:<br>
 ![](docs/kill_pid.PNG)
 
-graceful shutdown logs:
+graceful shutdown logs:<br>
 ![](docs/graceful_shutdown.PNG)
