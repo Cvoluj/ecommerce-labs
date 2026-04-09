@@ -12,6 +12,8 @@ jobs:
 
       - name: Create KinD cluster
         uses: helm/kind-action@v1
+        with:
+          cluster_name: kind
 
       - name: Build image
         run: docker build -t ecommerce-app:latest .
